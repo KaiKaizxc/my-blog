@@ -1,0 +1,61 @@
+.top {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 60px; 
+
+    position: sticky;
+    top: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.topleft , .topright {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topcenter {
+    flex: 6;
+}
+
+.topIcon , .topSearchIcon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.kaipic {
+    height: 60px;
+    width: 35px;
+    border-radius: 50%;
+    background-position: center;
+    margin-right: 15px;
+    
+}
+
+.topList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.topListItem {
+    height: 60px;
+    margin-right: 20px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.topListItem:hover {
+    background-color: ;
+}
